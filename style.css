@@ -27,7 +27,7 @@ form{
 }
 
 .converter{
-    height: calc(100vh - 37px);
+    height: calc(100vh - 55px);
     
     display: flex; 
     justify-content: center;
@@ -57,6 +57,8 @@ h1{
     background-color:rgba(255, 255, 255, 0);
     color: white;
     text-align: center;
+    box-sizing: border-box;
+    height: 55px;
     border-radius: 10px;
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     font-size: xx-large;
