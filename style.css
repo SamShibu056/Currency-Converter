@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    border: 3px solid outset rgb(255, 255, 255);
+    border-radius: 23px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    font-family: 'Baloo Chettan 2', sans-serif;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+
+form{
+    width: 100%;
+}
+
+.converter{
+    height: calc(100vh - 37px);
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.593); 
+}
+input {
+    /* width: 200px; */
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 34px;
+    font-size: 1rem;
+    width: 94%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 38px;
+    margin-left: 10px;
+}
+
+h1{
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-size: xx-large;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+.amt{
+    margin-bottom: 19px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.f1,.f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+.select-container {
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo{
+    position: absolute;
+    width: 234px;
+    left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+top: 10px;
+}
+button {
+    width: 79%;
+    border: 2px solid white;
+    border-radius: 21px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000075;
+    cursor: pointer;
+    font-weight: bold;
+}
+select{
+    outline: none;
+    border: 0px;
+}
+.answer{
+    text-align: center;
+    overflow: hidden;
+}
+.f1{
+    overflow: hidden;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+}
+select{
+    background-color: #ffffff00;
+    color: white;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+select option{
+    background-color: black;
+   color : white;
+}
